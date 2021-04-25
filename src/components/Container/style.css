@@ -1,0 +1,6 @@
+.container {
+  padding: 120px 75px 0 75px;
+  max-width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}

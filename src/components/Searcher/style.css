@@ -1,0 +1,16 @@
+.layout-header {
+  width: 100vw;
+  height: 100px;
+  background-color: #1aa3c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+
+input[type="search"] {
+  width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+}

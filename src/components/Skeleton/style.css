@@ -1,0 +1,24 @@
+.card-skeleton {
+  width: 350px;
+  height: 255px;
+  background-color: lightgray;
+  border-radius: 15px;
+  position: relative;
+}
+.banda {
+  height: 255px;
+  width: 50px;
+  background-color: whitesmoke;
+  filter: blur(2px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-duration: 1.2s;
+  animation-name: banda;
+  animation-iteration-count: infinite;
+}
+@keyframes banda {
+  100% {
+    left: 300px;
+  }
+}
